@@ -1,0 +1,182 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  text-transform: capitalize;
+}
+html {
+  font-size: 16px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  width: 100%;
+  padding-bottom: 70px;
+}
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav .container .navbar-brand img {
+  width: 60px;
+}
+nav .container button span i {
+  font-size: 25px;
+  color: white;
+}
+.nav-link,
+.nav-link:hover {
+  color: white;
+  font-size: 18px;
+}
+.navbar-collapse {
+  transition: all 0.6s ease;
+}
+.detailsinfo {
+  margin-top: 22%;
+  text-align: center;
+}
+.detailsinfo h2 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 41px;
+  color: white;
+  text-transform: uppercase;
+}
+.detailsinfo h1 {
+  font-size: 76px;
+  font-weight: 700;
+  color: white;
+  line-height: 59px;
+  margin-bottom: 23px;
+  text-transform: uppercase;
+}
+.detailsinfo .btn {
+  font-size: 18px;
+}
+.detailsinfo p {
+  color: white;
+  line-height: 23px;
+  margin-bottom: 22px;
+}
+.detailsinfo .btn {
+  text-transform: uppercase;
+  border-radius: 25px;
+  margin-bottom: 33px;
+  position: relative;
+}
+.detailsinfo .btn a {
+  position: relative;
+  z-index: 1;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.detailsimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detailsimg img {
+  width: 61%;
+  display: inline-block;
+  margin-bottom: 65px;
+}
+.allimages .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 22px;
+}
+.allimages .images img {
+  width: 40px;
+  display: inline-block;
+  margin-left: 14px;
+  transition: all 0.6s ease;
+}
+.allimages .images img:hover {
+  transform: translateY(-30px);
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 730px;
+  }
+  .detailsimg img {
+    width: 32%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 954px;
+  }
+  .navbar-nav {
+    margin-left: auto;
+  }
+  .detailsimg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .detailsimg img {
+    margin-top: 101px;
+    width: 41%;
+  }
+  .detailsinfo h2 {
+    font-size: 51px;
+  }
+  .detailsinfo h1 {
+    font-size: 113px;
+    line-height: 82px;
+  }
+  .detailsinfo {
+    text-align: left;
+  }
+  .home {
+    margin-bottom: 21px;
+  }
+  .nav-item {
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1160px;
+  }
+  nav .container .navbar-brand img {
+    width: 75px;
+  }
+  .allimages .images img {
+    width: 40px;
+  }
+  .detailsimg img {
+    margin-top: 84px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1360px;
+  }
+  header {
+    padding-bottom: 15px;
+    height: auto;
+  }
+  .detailsinfo {
+    margin-top: 20%;
+  }
+  .detailsimg {
+    margin-top: -7%;
+  }
+  .detailsimg img {
+    margin-bottom: 20px;
+  }
+}
