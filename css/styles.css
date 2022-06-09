@@ -97,6 +97,7 @@ nav .container button span i {
   display: inline-block;
   margin-left: 14px;
   transition: all 0.6s ease;
+  cursor: pointer;
 }
 .allimages .images img:hover {
   transform: translateY(-30px);
