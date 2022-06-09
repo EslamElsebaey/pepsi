@@ -16,8 +16,6 @@ document.addEventListener("click" , function (e){
   }else if (e.target.id == "blackSmallImg") {
     myheader.style.backgroundColor = "#000";
     mainImg.src = "images/pepsi003.png";
-  }else{
-    e.preventDefault();
   }
 })
 
