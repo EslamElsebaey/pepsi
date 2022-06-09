@@ -1,12 +1,24 @@
-function myfun() {
-  document.getElementById("myheader").style.backgroundColor = "#005CB4";
-  document.querySelector(".detailsimg img").src = "images/pepsi001.png";
-}
-function myfun2() {
-  document.getElementById("myheader").style.backgroundColor = "#C9002B";
-  document.querySelector(".detailsimg img").src = "images/pepsi002.png";
-}
-function myfun3() {
-  document.getElementById("myheader").style.backgroundColor = "black";
-  document.querySelector(".detailsimg img").src = "images/pepsi003.png";
-}
+// selecting variables 
+
+let myheader = document.getElementById("myheader");
+let mainImg = document.getElementById("mainImg");
+
+
+// main function 
+
+document.addEventListener("click" , function (e){
+  if (e.target.id == "blueSmallImg"){
+     myheader.style.backgroundColor = "#005CB4";
+     mainImg.src = "images/pepsi001.png";
+  }else if(e.target.id == "whiteSmallImg"){
+    myheader.style.backgroundColor = "#C9002B";
+    mainImg.src = "images/pepsi002.png";
+  }else if (e.target.id == "blackSmallImg") {
+    myheader.style.backgroundColor = "#000";
+    mainImg.src = "images/pepsi003.png";
+  }else{
+    e.preventDefault();
+  }
+})
+
+

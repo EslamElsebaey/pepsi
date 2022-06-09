@@ -30,7 +30,8 @@ nav .container button span i {
 .nav-link,
 .nav-link:hover {
   color: white;
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: 500;
 }
 .navbar-collapse {
   transition: all 0.6s ease;
